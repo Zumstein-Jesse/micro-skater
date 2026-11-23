@@ -1,0 +1,341 @@
+{
+ "regular": {
+  "pos": [
+   -2e-05,
+   0.00137,
+   0.12344
+  ],
+  "rpy": [
+   0.0,
+   -1e-05,
+   1.57079
+  ],
+  "joints": {
+   "left_hip_yaw": 0.1204,
+   "left_hip_roll": -0.0879,
+   "left_hip_pitch": 0.1142,
+   "left_knee": 0.5693,
+   "left_ankle": 0.4556,
+   "right_hip_yaw": -0.1185,
+   "right_hip_roll": 0.0879,
+   "right_hip_pitch": -0.1136,
+   "right_knee": -0.5697,
+   "right_ankle": -0.4564
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.045,
+    -0.004
+   ],
+   "right": [
+    0.045,
+    -0.004
+   ]
+  },
+  "info": {
+   "ik_label": "s0.045_y-0.004_z0.125",
+   "trunk_height_above_deck_top": 0.0994,
+   "robot_com_deck": [
+    -0.0,
+    0.0001,
+    0.1272
+   ],
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_from_across_deg": [
+    6.5,
+    -6.4
+   ],
+   "static_peak_tau_Nm": 0.084,
+   "min_joint_limit_margin_deg": 17.0,
+   "min_soft_0p9_margin_deg": 14.8,
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)"
+  }
+ },
+ "regular_tall": {
+  "pos": [
+   -2e-05,
+   0.0008,
+   0.13255
+  ],
+  "rpy": [
+   0.0,
+   -2e-05,
+   1.57078
+  ],
+  "joints": {
+   "left_hip_yaw": 0.1795,
+   "left_hip_roll": -0.0879,
+   "left_hip_pitch": -0.0813,
+   "left_knee": 0.242,
+   "left_ankle": 0.3238,
+   "right_hip_yaw": -0.1775,
+   "right_hip_roll": 0.0879,
+   "right_hip_pitch": 0.0818,
+   "right_knee": -0.2423,
+   "right_ankle": -0.3245
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.045,
+    -0.004
+   ],
+   "right": [
+    0.045,
+    -0.004
+   ]
+  },
+  "info": {
+   "ik_label": "s0.045_y-0.004_z0.135",
+   "trunk_height_above_deck_top": 0.1086,
+   "robot_com_deck": [
+    -0.0,
+    0.0001,
+    0.1345
+   ],
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_from_across_deg": [
+    9.9,
+    -9.7
+   ],
+   "static_peak_tau_Nm": 0.069,
+   "min_joint_limit_margin_deg": 17.0,
+   "min_soft_0p9_margin_deg": 14.8,
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)"
+  }
+ },
+ "regular_low": {
+  "pos": [
+   -2e-05,
+   0.00182,
+   0.1143
+  ],
+  "rpy": [
+   0.0,
+   -0.0,
+   1.57081
+  ],
+  "joints": {
+   "left_hip_yaw": 0.0601,
+   "left_hip_roll": -0.0879,
+   "left_hip_pitch": 0.2945,
+   "left_knee": 0.8509,
+   "left_ankle": 0.5568,
+   "right_hip_yaw": -0.0582,
+   "right_hip_roll": 0.0879,
+   "right_hip_pitch": -0.2939,
+   "right_knee": -0.8512,
+   "right_ankle": -0.5578
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.045,
+    -0.004
+   ],
+   "right": [
+    0.045,
+    -0.004
+   ]
+  },
+  "info": {
+   "ik_label": "s0.045_y-0.004_z0.115",
+   "trunk_height_above_deck_top": 0.0903,
+   "robot_com_deck": [
+    -0.0,
+    0.0,
+    0.1199
+   ],
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_from_across_deg": [
+    3.1,
+    -2.9
+   ],
+   "static_peak_tau_Nm": 0.097,
+   "min_joint_limit_margin_deg": 17.0,
+   "min_soft_0p9_margin_deg": 14.8,
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)"
+  }
+ },
+ "narrow": {
+  "pos": [
+   -2e-05,
+   0.00262,
+   0.12694
+  ],
+  "rpy": [
+   0.0,
+   -1e-05,
+   1.57089
+  ],
+  "joints": {
+   "left_hip_yaw": -0.0995,
+   "left_hip_roll": -0.0879,
+   "left_hip_pitch": -0.0094,
+   "left_knee": 0.499,
+   "left_ankle": 0.5089,
+   "right_hip_yaw": 0.1006,
+   "right_hip_roll": 0.0879,
+   "right_hip_pitch": 0.0098,
+   "right_knee": -0.499,
+   "right_ankle": -0.5092
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.042,
+    -0.004
+   ],
+   "right": [
+    0.042,
+    -0.004
+   ]
+  },
+  "info": {
+   "ik_label": "s0.042_y-0.004_z0.125",
+   "trunk_height_above_deck_top": 0.1029,
+   "robot_com_deck": [
+    -0.0,
+    0.0001,
+    0.1299
+   ],
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_from_across_deg": [
+    -6.1,
+    6.2
+   ],
+   "static_peak_tau_Nm": 0.081,
+   "min_joint_limit_margin_deg": 17.0,
+   "min_soft_0p9_margin_deg": 14.8,
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)"
+  }
+ },
+ "widest_flat": {
+  "pos": [
+   -4e-05,
+   0.00158,
+   0.11717
+  ],
+  "rpy": [
+   0.0,
+   -7e-05,
+   1.57083
+  ],
+  "joints": {
+   "left_hip_yaw": 0.1457,
+   "left_hip_roll": -0.0879,
+   "left_hip_pitch": 0.2595,
+   "left_knee": 0.7458,
+   "left_ankle": 0.4869,
+   "right_hip_yaw": -0.1468,
+   "right_hip_roll": 0.0879,
+   "right_hip_pitch": -0.2599,
+   "right_knee": -0.7451,
+   "right_ankle": -0.4856
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.046,
+    -0.004
+   ],
+   "right": [
+    0.046,
+    -0.004
+   ]
+  },
+  "info": {
+   "ik_label": "s0.046_y-0.004_z0.125",
+   "trunk_height_above_deck_top": 0.0932,
+   "robot_com_deck": [
+    -0.0,
+    0.0003,
+    0.1223
+   ],
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_from_across_deg": [
+    8.0,
+    -8.0
+   ],
+   "static_peak_tau_Nm": 0.088,
+   "min_joint_limit_margin_deg": 17.0,
+   "min_soft_0p9_margin_deg": 14.8,
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)"
+  }
+ },
+ "regular_y0": {
+  "pos": [
+   -2e-05,
+   0.00059,
+   0.12194
+  ],
+  "rpy": [
+   0.0,
+   -3e-05,
+   1.57077
+  ],
+  "joints": {
+   "left_hip_yaw": 0.1626,
+   "left_hip_roll": -0.0879,
+   "left_hip_pitch": 0.1039,
+   "left_knee": 0.6527,
+   "left_ankle": 0.5493,
+   "right_hip_yaw": -0.1605,
+   "right_hip_roll": 0.0879,
+   "right_hip_pitch": -0.1032,
+   "right_knee": -0.653,
+   "right_ankle": -0.5502
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.045,
+    0.0
+   ],
+   "right": [
+    0.045,
+    0.0
+   ]
+  },
+  "info": {
+   "ik_label": "s0.045_y+0.000_z0.125",
+   "trunk_height_above_deck_top": 0.0979,
+   "robot_com_deck": [
+    -0.0,
+    0.0001,
+    0.1259
+   ],
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_from_across_deg": [
+    8.9,
+    -8.8
+   ],
+   "static_peak_tau_Nm": 0.081,
+   "min_joint_limit_margin_deg": 17.0,
+   "min_soft_0p9_margin_deg": 14.8,
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)"
+  }
+ },
+ "_conventions": {
+  "frame": "deck frame: origin = deck body (skateboard) origin = centre of the flat deck slab; board level on its wheels at rest -> deck origin z 0.022, deck top 0.024. pos = trunk_base free-joint position: x, y relative to the deck origin, z absolute above the ground.",
+  "rpy": "trunk_base orientation relative to the deck heading, R = Rz(yaw) @ Ry(pitch) @ Rx(roll) (intrinsic ZYX); yaw +pi/2 -> robot +x = deck +y (rider faces deck +y, LEFT sole at deck -x, RIGHT sole at deck +x).",
+  "joints": "10 leg joints in radians (robot joint names, no prefix); head/neck at HOME.",
+  "model": "get_skate_robot_spec (groundcontact + {left,right}_sole_deck_collision boxes 45.6 x 34 mm); sole_deck_xy = box-sole bottom centres in the deck frame.",
+  "regular": "soles at deck x -+0.045 (box 34 mm along the deck: spans 0.028..0.062, covers the axles at 0.055; the toed-out corner stays 2.5 mm short of the kick bend at 0.067), y -0.004 (4 mm toward the heels / deck -y), toes out ~7 deg (hip yaw), trunk upright, robot CoM over the deck centre. Wider flat-sole stances do not fit: with no ankle roll the sole can only stay flat with hip roll at HOME, the lateral reach comes from hip yaw (toe-out), and a toed-out sole then overlaps the kick bend (+-0.046 is the widest flat fit). See FEASIBILITY.md P1/P2.",
+  "regular_y0": "as regular with the soles centred on the deck (y 0): toe and heel support margins about equal (the toed-out soles' support spans about -23..+24 mm vs -27..+20 mm for regular, whose toe-side lean limit (6-8 mm) binds before the heel side (10-15 mm)); hold-validated like the others (p2_results.json).",
+  "mirror": "the board is symmetric: the mirrored stance (rider facing deck -y) is the same pose with board yaw + pi."
+ }
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+# run outputs and generated assets, at the repo root only (src/micro_skater/robot/assets/ is shipped)
+/out/
+/logs/
+/scenes/
+/output/
+/assets/
+/tools/isaac_render/.usdvenv/
+/tools/isaac_render/chain_cine/
+
+# crash dumps from Windows shell tools
+*.stackdump

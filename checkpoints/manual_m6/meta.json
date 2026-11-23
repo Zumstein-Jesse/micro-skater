@@ -1,0 +1,32 @@
+{
+ "name": "manual_m6",
+ "what": "phase 2: manual (nose up, back wheels only) (m6)",
+ "task_id": "Mjlab-Skate-SeqManual-MicroDuck",
+ "iteration": 2597,
+ "common_step_counter": 62448,
+ "actor_obs_dim": 114,
+ "action_dim": 14,
+ "critic_obs_dim": 127,
+ "actor_hidden": [
+  512,
+  256,
+  128
+ ],
+ "activation": "elu",
+ "actor_keys": [
+  "obs_normalizer._mean",
+  "obs_normalizer._var",
+  "obs_normalizer._std",
+  "obs_normalizer.count",
+  "distribution.std_param",
+  "mlp.0.weight",
+  "mlp.0.bias",
+  "mlp.2.weight",
+  "mlp.2.bias",
+  "mlp.4.weight",
+  "mlp.4.bias",
+  "mlp.6.weight",
+  "mlp.6.bias"
+ ],
+ "contents": "actor + critic weights (incl. observation normalizers), iteration, step counter; no optimizer state, no configs, no paths"
+}

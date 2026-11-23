@@ -1,0 +1,32 @@
+{
+ "name": "runner_run_v2",
+ "what": "running policy (play sim Shift-run), run_v2 iteration 6750",
+ "task_id": "Mjlab-Velocity-Run-Flat-MicroDuck",
+ "iteration": 6750,
+ "common_step_counter": 162072,
+ "actor_obs_dim": 61,
+ "action_dim": 14,
+ "critic_obs_dim": 76,
+ "actor_hidden": [
+  512,
+  256,
+  128
+ ],
+ "activation": "elu",
+ "actor_keys": [
+  "obs_normalizer._mean",
+  "obs_normalizer._var",
+  "obs_normalizer._std",
+  "obs_normalizer.count",
+  "distribution.std_param",
+  "mlp.0.weight",
+  "mlp.0.bias",
+  "mlp.2.weight",
+  "mlp.2.bias",
+  "mlp.4.weight",
+  "mlp.4.bias",
+  "mlp.6.weight",
+  "mlp.6.bias"
+ ],
+ "contents": "actor + critic weights (incl. observation normalizers), iteration, step counter; no optimizer state, no configs, no paths"
+}

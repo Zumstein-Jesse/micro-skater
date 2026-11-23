@@ -1,0 +1,1263 @@
+{
+ "mount": {
+  "pos": [
+   -0.02781,
+   -0.04606,
+   0.10898
+  ],
+  "rpy": [
+   -0.20184,
+   -0.12285,
+   -0.19564
+  ],
+  "joints": {
+   "left_hip_yaw": 0.47124,
+   "left_hip_roll": 0.03485,
+   "left_hip_pitch": 0.77128,
+   "left_knee": 0.1953,
+   "left_ankle": -0.37385,
+   "right_hip_yaw": 0.11306,
+   "right_hip_roll": 0.27553,
+   "right_hip_pitch": 0.3869,
+   "right_knee": -0.15713,
+   "right_ankle": -0.6897
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.02
+   ],
+   "right": [
+    -0.02,
+    -0.095
+   ]
+  },
+  "info": {
+   "ik_label": "mount",
+   "surfaces": {
+    "left": "deck",
+    "right": "floor"
+   },
+   "trunk_height_above_deck_top": 0.085,
+   "robot_com_deck": [
+    -0.0303,
+    -0.0359,
+    0.1122
+   ],
+   "system_com_world": [
+    -0.0286,
+    -0.0322,
+    0.1226
+   ],
+   "sys_com_minus_rear_axle_x_mm": 16.4,
+   "sole_tilt_deg": [
+    0.0,
+    0.01
+   ],
+   "sole_yaw_deg": [
+    -38.9,
+    -17.3
+   ],
+   "sole_span_deck": [
+    [
+     -0.0685,
+     -0.0116,
+     -0.0076,
+     0.0475
+    ],
+    [
+     -0.0468,
+     0.0069,
+     -0.118,
+     -0.072
+    ]
+   ],
+   "clearance_mm": [
+    14.5,
+    10.0
+   ],
+   "sole_load_N": [
+    2.91,
+    4.33
+   ],
+   "static_peak_tau_Nm": 0.044,
+   "tau_frac_of_stall": 0.07,
+   "min_joint_limit_margin_deg": 3.0,
+   "trunk_rpy_rel_deck_deg": [
+    -11.56,
+    -7.04,
+    -11.21
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.005,
+    "left_hip_roll": -0.044,
+    "left_hip_pitch": -0.044,
+    "left_knee": -0.044,
+    "left_ankle": 0.044,
+    "neck_pitch": -0.042,
+    "head_pitch": -0.015,
+    "head_yaw": -0.005,
+    "head_roll": -0.004,
+    "right_hip_yaw": 0.022,
+    "right_hip_roll": -0.044,
+    "right_hip_pitch": 0.044,
+    "right_knee": 0.044,
+    "right_ankle": 0.037
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 3.0,
+    "left_hip_roll": 20.0,
+    "left_hip_pitch": 45.8,
+    "left_knee": 78.8,
+    "left_ankle": 68.6,
+    "right_hip_yaw": 18.5,
+    "right_hip_roll": 6.2,
+    "right_hip_pitch": 67.8,
+    "right_knee": 81.0,
+    "right_ankle": 50.5
+   },
+   "note": "P0 at rest: LEFT (board) sole on the deck over the rear truck at (-0.040, +0.020), RIGHT sole flat on the floor beside the tail at (-0.020, -0.095) (inner edge 16 mm outside the deck/wheels). Board can roll: the LP allows no net deck force along x.",
+   "push_capacity_mps2_at_0.5Nm": 1.73,
+   "static_rolling_board_feasible": true,
+   "checks_pass": true
+  }
+ },
+ "push": {
+  "pos": [
+   -0.02356,
+   -0.04054,
+   0.10976
+  ],
+  "rpy": [
+   -0.15045,
+   0.01717,
+   -0.1546
+  ],
+  "joints": {
+   "left_hip_yaw": 0.39486,
+   "left_hip_roll": 0.05764,
+   "left_hip_pitch": 0.64154,
+   "left_knee": 0.40192,
+   "left_ankle": -0.19716,
+   "right_hip_yaw": 0.14413,
+   "right_hip_roll": 0.23917,
+   "right_hip_pitch": 0.95048,
+   "right_knee": 0.07261,
+   "right_ankle": -0.88281
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.02
+   ],
+   "right": [
+    0.005,
+    -0.095
+   ]
+  },
+  "info": {
+   "ik_label": "push",
+   "surfaces": {
+    "left": "deck",
+    "right": "floor"
+   },
+   "trunk_height_above_deck_top": 0.0858,
+   "robot_com_deck": [
+    -0.0203,
+    -0.0339,
+    0.1128
+   ],
+   "system_com_world": [
+    -0.0196,
+    -0.0305,
+    0.1231
+   ],
+   "sys_com_minus_rear_axle_x_mm": 25.4,
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_deg": [
+    -31.1,
+    -17.4
+   ],
+   "sole_span_deck": [
+    [
+     -0.0683,
+     -0.0117,
+     -0.0063,
+     0.0463
+    ],
+    [
+     -0.0218,
+     0.0319,
+     -0.1181,
+     -0.072
+    ]
+   ],
+   "clearance_mm": [
+    15.7,
+    10.0
+   ],
+   "sole_load_N": [
+    3.11,
+    4.12
+   ],
+   "static_peak_tau_Nm": 0.048,
+   "tau_frac_of_stall": 0.08,
+   "min_joint_limit_margin_deg": 7.4,
+   "trunk_rpy_rel_deck_deg": [
+    -8.62,
+    0.98,
+    -8.86
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.026,
+    "left_hip_roll": -0.048,
+    "left_hip_pitch": -0.048,
+    "left_knee": -0.048,
+    "left_ankle": 0.031,
+    "neck_pitch": -0.013,
+    "head_pitch": -0.028,
+    "head_yaw": -0.004,
+    "head_roll": -0.003,
+    "right_hip_yaw": 0.048,
+    "right_hip_roll": -0.018,
+    "right_hip_pitch": -0.013,
+    "right_knee": 0.048,
+    "right_ankle": 0.048
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 7.4,
+    "left_hip_roll": 18.7,
+    "left_hip_pitch": 53.2,
+    "left_knee": 67.0,
+    "left_ankle": 78.7,
+    "right_hip_yaw": 16.7,
+    "right_hip_roll": 8.3,
+    "right_hip_pitch": 35.5,
+    "right_knee": 85.8,
+    "right_ankle": 39.4
+   },
+   "note": "P1 strike point (start of a stroke): push sole on the floor 4.5 cm ahead of the board sole (x +0.005), beside the deck taper; the stroke sweeps it back to push_back.",
+   "push_capacity_mps2_at_0.5Nm": 1.87,
+   "static_rolling_board_feasible": true,
+   "checks_pass": true
+  }
+ },
+ "push_back": {
+  "pos": [
+   -0.06289,
+   -0.04464,
+   0.11887
+  ],
+  "rpy": [
+   -0.13063,
+   0.17623,
+   0.20086
+  ],
+  "joints": {
+   "left_hip_yaw": -0.3927,
+   "left_hip_roll": -0.03714,
+   "left_hip_pitch": -1.26246,
+   "left_knee": 0.36439,
+   "left_ankle": 1.41372,
+   "right_hip_yaw": -0.13511,
+   "right_hip_roll": 0.19488,
+   "right_hip_pitch": 0.85074,
+   "right_knee": 1.11316,
+   "right_ankle": 0.45495
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.02
+   ],
+   "right": [
+    -0.075,
+    -0.0951
+   ]
+  },
+  "info": {
+   "ik_label": "push_back",
+   "surfaces": {
+    "left": "deck",
+    "right": "floor"
+   },
+   "trunk_height_above_deck_top": 0.0949,
+   "robot_com_deck": [
+    -0.0565,
+    -0.0382,
+    0.1178
+   ],
+   "system_com_world": [
+    -0.0521,
+    -0.0343,
+    0.1276
+   ],
+   "sys_com_minus_rear_axle_x_mm": -7.1,
+   "sole_tilt_deg": [
+    0.01,
+    0.01
+   ],
+   "sole_yaw_deg": [
+    35.8,
+    17.9
+   ],
+   "sole_span_deck": [
+    [
+     -0.0684,
+     -0.0115,
+     -0.0072,
+     0.0471
+    ],
+    [
+     -0.102,
+     -0.0481,
+     -0.1182,
+     -0.0719
+    ]
+   ],
+   "clearance_mm": [
+    14.9,
+    9.9
+   ],
+   "sole_load_N": [
+    3.57,
+    3.66
+   ],
+   "static_peak_tau_Nm": 0.059,
+   "tau_frac_of_stall": 0.09,
+   "min_joint_limit_margin_deg": 2.5,
+   "trunk_rpy_rel_deck_deg": [
+    -7.48,
+    10.1,
+    11.51
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.054,
+    "left_hip_roll": 0.004,
+    "left_hip_pitch": 0.003,
+    "left_knee": -0.059,
+    "left_ankle": -0.059,
+    "neck_pitch": 0.02,
+    "head_pitch": -0.042,
+    "head_yaw": -0.003,
+    "head_roll": -0.003,
+    "right_hip_yaw": 0.018,
+    "right_hip_roll": -0.059,
+    "right_hip_pitch": -0.059,
+    "right_knee": 0.048,
+    "right_ankle": -0.059
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 2.5,
+    "left_hip_roll": 19.9,
+    "left_hip_pitch": 17.7,
+    "left_knee": 69.1,
+    "left_ankle": 9.0,
+    "right_hip_yaw": 22.3,
+    "right_hip_roll": 10.8,
+    "right_hip_pitch": 41.3,
+    "right_knee": 26.2,
+    "right_ankle": 63.9
+   },
+   "note": "P1 end of a stroke: push sole 3.5 cm behind the board sole (x -0.075), beside the tail bend.",
+   "push_capacity_mps2_at_0.5Nm": 2.19,
+   "static_rolling_board_feasible": true,
+   "checks_pass": true
+  }
+ },
+ "glide_step": {
+  "pos": [
+   -0.01336,
+   -0.0063,
+   0.1395
+  ],
+  "rpy": [
+   -0.06829,
+   -0.07509,
+   0.20268
+  ],
+  "joints": {
+   "left_hip_yaw": -0.3927,
+   "left_hip_roll": 0.00359,
+   "left_hip_pitch": -0.17269,
+   "left_knee": -0.10256,
+   "left_ankle": 0.11406,
+   "right_hip_yaw": 0.3927,
+   "right_hip_roll": 0.12271,
+   "right_hip_pitch": 0.26435,
+   "right_knee": 0.67193,
+   "right_ankle": 0.31131
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.0401,
+    0.0201
+   ],
+   "right": [
+    -0.04,
+    -0.041
+   ]
+  },
+  "info": {
+   "ik_label": "glide_step",
+   "surfaces": {
+    "left": "deck",
+    "right": "deck"
+   },
+   "trunk_height_above_deck_top": 0.1155,
+   "robot_com_deck": [
+    -0.0224,
+    -0.0054,
+    0.1399
+   ],
+   "system_com_world": [
+    -0.0215,
+    -0.0049,
+    0.1475
+   ],
+   "sys_com_minus_rear_axle_x_mm": 23.5,
+   "sole_tilt_deg": [
+    0.01,
+    0.01
+   ],
+   "sole_yaw_deg": [
+    34.2,
+    -10.9
+   ],
+   "sole_span_deck": [
+    [
+     -0.0685,
+     -0.0116,
+     -0.0068,
+     0.047
+    ],
+    [
+     -0.0656,
+     -0.0144,
+     -0.062,
+     -0.02
+    ]
+   ],
+   "clearance_mm": [
+    15.0,
+    -0.0
+   ],
+   "sole_load_N": [
+    4.29,
+    2.95
+   ],
+   "static_peak_tau_Nm": 0.058,
+   "tau_frac_of_stall": 0.09,
+   "min_joint_limit_margin_deg": 2.5,
+   "trunk_rpy_rel_deck_deg": [
+    -3.91,
+    -4.3,
+    11.61
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.03,
+    "left_hip_roll": 0.038,
+    "left_hip_pitch": -0.058,
+    "left_knee": -0.058,
+    "left_ankle": 0.058,
+    "neck_pitch": -0.033,
+    "head_pitch": -0.02,
+    "head_yaw": -0.002,
+    "head_roll": -0.003,
+    "right_hip_yaw": 0.024,
+    "right_hip_roll": -0.058,
+    "right_hip_pitch": 0.023,
+    "right_knee": 0.028,
+    "right_ankle": -0.058
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 2.5,
+    "left_hip_roll": 21.8,
+    "left_hip_pitch": 80.1,
+    "left_knee": 84.1,
+    "left_ankle": 83.5,
+    "right_hip_yaw": 2.5,
+    "right_hip_roll": 15.0,
+    "right_hip_pitch": 74.9,
+    "right_knee": 51.5,
+    "right_ankle": 72.2
+   },
+   "note": "P1->P2: the push foot has stepped up onto the deck at (-0.040, -0.041) next to the board foot (still at +0.020); one foot placement, no hop.",
+   "checks_pass": true
+  }
+ },
+ "glide": {
+  "pos": [
+   -0.02291,
+   2e-05,
+   0.13409
+  ],
+  "rpy": [
+   7e-05,
+   -5e-05,
+   6e-05
+  ],
+  "joints": {
+   "left_hip_yaw": -0.02186,
+   "left_hip_roll": -0.08793,
+   "left_hip_pitch": -0.07728,
+   "left_knee": 0.07615,
+   "left_ankle": 0.15395,
+   "right_hip_yaw": 0.0227,
+   "right_hip_roll": 0.0878,
+   "right_hip_pitch": 0.07742,
+   "right_knee": -0.07629,
+   "right_ankle": -0.15414
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.042
+   ],
+   "right": [
+    -0.04,
+    -0.042
+   ]
+  },
+  "info": {
+   "ik_label": "glide",
+   "surfaces": {
+    "left": "deck",
+    "right": "deck"
+   },
+   "trunk_height_above_deck_top": 0.1101,
+   "robot_com_deck": [
+    -0.0263,
+    0.0,
+    0.1359
+   ],
+   "system_com_world": [
+    -0.025,
+    0.0,
+    0.1438
+   ],
+   "sys_com_minus_rear_axle_x_mm": 20.0,
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_deg": [
+    1.6,
+    -1.7
+   ],
+   "sole_span_deck": [
+    [
+     -0.0633,
+     -0.0167,
+     0.0244,
+     0.0596
+    ],
+    [
+     -0.0633,
+     -0.0167,
+     -0.0597,
+     -0.0243
+    ]
+   ],
+   "clearance_mm": [
+    2.4,
+    2.3
+   ],
+   "sole_load_N": [
+    3.61,
+    3.62
+   ],
+   "static_peak_tau_Nm": 0.082,
+   "tau_frac_of_stall": 0.13,
+   "min_joint_limit_margin_deg": 17.0,
+   "trunk_rpy_rel_deck_deg": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.031,
+    "left_hip_roll": 0.082,
+    "left_hip_pitch": -0.008,
+    "left_knee": -0.082,
+    "left_ankle": 0.065,
+    "neck_pitch": -0.017,
+    "head_pitch": -0.027,
+    "head_yaw": 0.0,
+    "head_roll": -0.002,
+    "right_hip_yaw": 0.031,
+    "right_hip_roll": -0.082,
+    "right_hip_pitch": 0.008,
+    "right_knee": 0.082,
+    "right_ankle": -0.065
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 23.7,
+    "left_hip_roll": 17.0,
+    "left_hip_pitch": 85.6,
+    "left_knee": 85.6,
+    "left_ankle": 81.2,
+    "right_hip_yaw": 23.7,
+    "right_hip_roll": 17.0,
+    "right_hip_pitch": 85.6,
+    "right_knee": 85.6,
+    "right_ankle": 81.2
+   },
+   "note": "P2/P4/P5 riding stance: the board foot has slid out 22 mm to +0.042 (HOME spacing). Soles side by side 5 mm ahead of the rear axle; system CoM 20 mm ahead of the axle.",
+   "checks_pass": true
+  }
+ },
+ "glide_fwd": {
+  "pos": [
+   -0.01654,
+   2e-05,
+   0.13406
+  ],
+  "rpy": [
+   5e-05,
+   -2e-05,
+   4e-05
+  ],
+  "joints": {
+   "left_hip_yaw": -0.01706,
+   "left_hip_roll": -0.08791,
+   "left_hip_pitch": -0.06192,
+   "left_knee": -0.05445,
+   "left_ankle": 0.00797,
+   "right_hip_yaw": 0.01793,
+   "right_hip_roll": 0.08782,
+   "right_hip_pitch": 0.06203,
+   "right_knee": 0.05422,
+   "right_ankle": -0.00821
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.042
+   ],
+   "right": [
+    -0.04,
+    -0.042
+   ]
+  },
+  "info": {
+   "ik_label": "glide_fwd",
+   "surfaces": {
+    "left": "deck",
+    "right": "deck"
+   },
+   "trunk_height_above_deck_top": 0.1101,
+   "robot_com_deck": [
+    -0.0207,
+    0.0,
+    0.1359
+   ],
+   "system_com_world": [
+    -0.02,
+    0.0,
+    0.1439
+   ],
+   "sys_com_minus_rear_axle_x_mm": 25.0,
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_deg": [
+    1.3,
+    -1.5
+   ],
+   "sole_span_deck": [
+    [
+     -0.0632,
+     -0.0168,
+     0.0245,
+     0.0595
+    ],
+    [
+     -0.0632,
+     -0.0168,
+     -0.0596,
+     -0.0244
+    ]
+   ],
+   "clearance_mm": [
+    2.5,
+    2.4
+   ],
+   "sole_load_N": [
+    3.62,
+    3.61
+   ],
+   "static_peak_tau_Nm": 0.085,
+   "tau_frac_of_stall": 0.13,
+   "min_joint_limit_margin_deg": 17.0,
+   "trunk_rpy_rel_deck_deg": [
+    0.0,
+    -0.0,
+    0.0
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.034,
+    "left_hip_roll": 0.085,
+    "left_hip_pitch": -0.008,
+    "left_knee": -0.085,
+    "left_ankle": 0.085,
+    "neck_pitch": -0.017,
+    "head_pitch": -0.027,
+    "head_yaw": 0.0,
+    "head_roll": -0.002,
+    "right_hip_yaw": 0.034,
+    "right_hip_roll": -0.085,
+    "right_hip_pitch": 0.008,
+    "right_knee": 0.085,
+    "right_ankle": -0.085
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 24.0,
+    "left_hip_roll": 17.0,
+    "left_hip_pitch": 86.5,
+    "left_knee": 86.9,
+    "left_ankle": 89.5,
+    "right_hip_yaw": 24.0,
+    "right_hip_roll": 17.0,
+    "right_hip_pitch": 86.4,
+    "right_knee": 86.9,
+    "right_ankle": 89.5
+   },
+   "note": "P5 transition entry: same feet, system CoM as far forward as the legs reach (+25 mm ahead of the rear axle, binding: knees straight).",
+   "checks_pass": true
+  }
+ },
+ "tail": {
+  "pos": [
+   -0.0415,
+   3e-05,
+   0.13618
+  ],
+  "rpy": [
+   0.0001,
+   -0.00392,
+   1e-05
+  ],
+  "joints": {
+   "left_hip_yaw": -0.08825,
+   "left_hip_roll": -0.08765,
+   "left_hip_pitch": -0.29498,
+   "left_knee": 0.20595,
+   "left_ankle": 0.50533,
+   "right_hip_yaw": 0.08729,
+   "right_hip_roll": 0.08746,
+   "right_hip_pitch": 0.29477,
+   "right_knee": -0.20578,
+   "right_ankle": -0.50485
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.042
+   ],
+   "right": [
+    -0.04,
+    -0.042
+   ]
+  },
+  "info": {
+   "ik_label": "tail",
+   "surfaces": {
+    "left": "deck",
+    "right": "deck"
+   },
+   "trunk_height_above_deck_top": 0.1122,
+   "robot_com_deck": [
+    -0.0426,
+    0.0,
+    0.137
+   ],
+   "system_com_world": [
+    -0.0397,
+    0.0,
+    0.1448
+   ],
+   "sys_com_minus_rear_axle_x_mm": 5.3,
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_deg": [
+    5.4,
+    -5.4
+   ],
+   "sole_span_deck": [
+    [
+     -0.0643,
+     -0.0157,
+     0.0229,
+     0.0611
+    ],
+    [
+     -0.0643,
+     -0.0157,
+     -0.0611,
+     -0.0229
+    ]
+   ],
+   "clearance_mm": [
+    0.9,
+    0.9
+   ],
+   "sole_load_N": [
+    3.61,
+    3.62
+   ],
+   "static_peak_tau_Nm": 0.062,
+   "tau_frac_of_stall": 0.1,
+   "min_joint_limit_margin_deg": 17.0,
+   "trunk_rpy_rel_deck_deg": [
+    0.01,
+    -0.22,
+    0.0
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.062,
+    "left_hip_roll": 0.062,
+    "left_hip_pitch": -0.015,
+    "left_knee": -0.062,
+    "left_ankle": 0.002,
+    "neck_pitch": -0.018,
+    "head_pitch": -0.027,
+    "head_yaw": 0.0,
+    "head_roll": -0.002,
+    "right_hip_yaw": 0.062,
+    "right_hip_roll": -0.062,
+    "right_hip_pitch": 0.015,
+    "right_knee": 0.062,
+    "right_ankle": -0.002
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 19.9,
+    "left_hip_roll": 17.0,
+    "left_hip_pitch": 73.1,
+    "left_knee": 78.2,
+    "left_ankle": 61.0,
+    "right_hip_yaw": 20.0,
+    "right_hip_roll": 17.0,
+    "right_hip_pitch": 73.1,
+    "right_knee": 78.2,
+    "right_ankle": 61.1
+   },
+   "note": "P3 manual set-up: same feet, system CoM 5 mm ahead of the rear axle (front wheels lightly loaded).",
+   "checks_pass": true
+  }
+ },
+ "tail_back": {
+  "pos": [
+   -0.05996,
+   2e-05,
+   0.13417
+  ],
+  "rpy": [
+   2e-05,
+   8e-05,
+   0.0
+  ],
+  "joints": {
+   "left_hip_yaw": 0.03624,
+   "left_hip_roll": -0.08788,
+   "left_hip_pitch": -0.4887,
+   "left_knee": 0.28456,
+   "left_ankle": 0.77365,
+   "right_hip_yaw": -0.03801,
+   "right_hip_roll": 0.08785,
+   "right_hip_pitch": 0.48795,
+   "right_knee": -0.28461,
+   "right_ankle": -0.77287
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.042
+   ],
+   "right": [
+    -0.04,
+    -0.042
+   ]
+  },
+  "info": {
+   "ik_label": "tail_back",
+   "surfaces": {
+    "left": "deck",
+    "right": "deck"
+   },
+   "trunk_height_above_deck_top": 0.1102,
+   "robot_com_deck": [
+    -0.0575,
+    0.0,
+    0.1347
+   ],
+   "system_com_world": [
+    -0.053,
+    0.0,
+    0.1428
+   ],
+   "sys_com_minus_rear_axle_x_mm": -8.0,
+   "sole_tilt_deg": [
+    0.0,
+    0.0
+   ],
+   "sole_yaw_deg": [
+    -1.7,
+    1.7
+   ],
+   "sole_span_deck": [
+    [
+     -0.0633,
+     -0.0167,
+     0.0243,
+     0.0597
+    ],
+    [
+     -0.0633,
+     -0.0167,
+     -0.0597,
+     -0.0243
+    ]
+   ],
+   "clearance_mm": [
+    2.3,
+    2.3
+   ],
+   "sole_load_N": [
+    3.62,
+    3.62
+   ],
+   "static_peak_tau_Nm": 0.048,
+   "tau_frac_of_stall": 0.07,
+   "min_joint_limit_margin_deg": 17.0,
+   "trunk_rpy_rel_deck_deg": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.048,
+    "left_hip_roll": -0.047,
+    "left_hip_pitch": -0.009,
+    "left_knee": -0.048,
+    "left_ankle": -0.044,
+    "neck_pitch": -0.017,
+    "head_pitch": -0.027,
+    "head_yaw": 0.0,
+    "head_roll": -0.002,
+    "right_hip_yaw": 0.048,
+    "right_hip_roll": 0.048,
+    "right_hip_pitch": 0.009,
+    "right_knee": 0.048,
+    "right_ankle": 0.044
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 27.1,
+    "left_hip_roll": 17.0,
+    "left_hip_pitch": 62.0,
+    "left_knee": 73.7,
+    "left_ankle": 45.7,
+    "right_hip_yaw": 27.2,
+    "right_hip_roll": 17.0,
+    "right_hip_pitch": 62.0,
+    "right_knee": 73.7,
+    "right_ankle": 45.7
+   },
+   "note": "P3 nose lift: same feet, system CoM 8 mm BEHIND the rear axle (not a resting pose: the nose pitches up from here; reach limit -12.5 mm level / -15 mm at 10 deg).",
+   "checks_pass": true
+  }
+ },
+ "carve_L": {
+  "pos": [
+   -0.02168,
+   0.00504,
+   0.13708
+  ],
+  "rpy": [
+   -0.06685,
+   -0.01725,
+   -0.10931
+  ],
+  "joints": {
+   "left_hip_yaw": -0.24415,
+   "left_hip_roll": -0.01893,
+   "left_hip_pitch": -0.12792,
+   "left_knee": -0.02393,
+   "left_ankle": 0.10506,
+   "right_hip_yaw": -0.2402,
+   "right_hip_roll": 0.15689,
+   "right_hip_pitch": 0.19444,
+   "right_knee": 0.19851,
+   "right_ankle": 0.00282
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.042
+   ],
+   "right": [
+    -0.04,
+    -0.042
+   ]
+  },
+  "info": {
+   "ik_label": "carve_L",
+   "surfaces": {
+    "left": "deck",
+    "right": "deck"
+   },
+   "trunk_height_above_deck_top": 0.1131,
+   "robot_com_deck": [
+    -0.0253,
+    0.0062,
+    0.1382
+   ],
+   "system_com_world": [
+    -0.0241,
+    0.0056,
+    0.1459
+   ],
+   "sys_com_minus_rear_axle_x_mm": 20.9,
+   "sole_tilt_deg": [
+    0.01,
+    0.0
+   ],
+   "sole_yaw_deg": [
+    8.1,
+    7.0
+   ],
+   "sole_span_deck": [
+    [
+     -0.065,
+     -0.015,
+     0.022,
+     0.062
+    ],
+    [
+     -0.0647,
+     -0.0153,
+     -0.0617,
+     -0.0223
+    ]
+   ],
+   "clearance_mm": [
+    -0.0,
+    0.3
+   ],
+   "sole_load_N": [
+    5.1,
+    2.13
+   ],
+   "static_peak_tau_Nm": 0.074,
+   "tau_frac_of_stall": 0.12,
+   "min_joint_limit_margin_deg": 11.0,
+   "trunk_rpy_rel_deck_deg": [
+    -3.83,
+    -0.99,
+    -6.26
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.029,
+    "left_hip_roll": 0.074,
+    "left_hip_pitch": -0.074,
+    "left_knee": -0.074,
+    "left_ankle": 0.074,
+    "neck_pitch": -0.021,
+    "head_pitch": -0.025,
+    "head_yaw": -0.002,
+    "head_roll": -0.003,
+    "right_hip_yaw": 0.025,
+    "right_hip_roll": -0.058,
+    "right_hip_pitch": -0.051,
+    "right_knee": 0.074,
+    "right_ankle": -0.055
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 11.0,
+    "left_hip_roll": 20.9,
+    "left_hip_pitch": 82.7,
+    "left_knee": 88.6,
+    "left_ankle": 84.0,
+    "right_hip_yaw": 16.2,
+    "right_hip_roll": 13.0,
+    "right_hip_pitch": 78.9,
+    "right_knee": 78.6,
+    "right_ankle": 89.8
+   },
+   "note": "P4 carve left (lateral reach probe): glide feet on a LEVEL deck, system CoM asked 12 mm toward the left (+y) sole; the IK reaches only ~6 mm with flat soles and an upright trunk (no ankle roll). Spawn for steering practice; the turn itself is the trained lean.",
+   "checks_pass": true
+  }
+ },
+ "carve_R": {
+  "pos": [
+   -0.02169,
+   -0.00496,
+   0.13709
+  ],
+  "rpy": [
+   0.0672,
+   -0.01725,
+   0.10942
+  ],
+  "joints": {
+   "left_hip_yaw": 0.23936,
+   "left_hip_roll": -0.15722,
+   "left_hip_pitch": -0.19498,
+   "left_knee": -0.19816,
+   "left_ankle": -0.00186,
+   "right_hip_yaw": 0.24302,
+   "right_hip_roll": 0.0186,
+   "right_hip_pitch": 0.12829,
+   "right_knee": 0.02479,
+   "right_ankle": -0.10449
+  },
+  "sole_deck_xy": {
+   "left": [
+    -0.04,
+    0.042
+   ],
+   "right": [
+    -0.04,
+    -0.042
+   ]
+  },
+  "info": {
+   "ik_label": "carve_R",
+   "surfaces": {
+    "left": "deck",
+    "right": "deck"
+   },
+   "trunk_height_above_deck_top": 0.1131,
+   "robot_com_deck": [
+    -0.0253,
+    -0.0062,
+    0.1382
+   ],
+   "system_com_world": [
+    -0.0241,
+    -0.0055,
+    0.1459
+   ],
+   "sys_com_minus_rear_axle_x_mm": 20.9,
+   "sole_tilt_deg": [
+    0.0,
+    0.01
+   ],
+   "sole_yaw_deg": [
+    -7.1,
+    -8.1
+   ],
+   "sole_span_deck": [
+    [
+     -0.0647,
+     -0.0153,
+     0.0223,
+     0.0617
+    ],
+    [
+     -0.065,
+     -0.015,
+     -0.062,
+     -0.022
+    ]
+   ],
+   "clearance_mm": [
+    0.3,
+    -0.0
+   ],
+   "sole_load_N": [
+    2.13,
+    5.1
+   ],
+   "static_peak_tau_Nm": 0.074,
+   "tau_frac_of_stall": 0.12,
+   "min_joint_limit_margin_deg": 11.1,
+   "trunk_rpy_rel_deck_deg": [
+    3.85,
+    -0.99,
+    6.27
+   ],
+   "head_neck": "HOME (neck_pitch 0.3491, head_pitch 0.3491, head_yaw 0, head_roll 0)",
+   "tau": {
+    "left_hip_yaw": -0.025,
+    "left_hip_roll": 0.058,
+    "left_hip_pitch": 0.051,
+    "left_knee": -0.074,
+    "left_ankle": 0.055,
+    "neck_pitch": -0.021,
+    "head_pitch": -0.025,
+    "head_yaw": 0.002,
+    "head_roll": -0.002,
+    "right_hip_yaw": 0.029,
+    "right_hip_roll": -0.074,
+    "right_hip_pitch": 0.074,
+    "right_knee": 0.074,
+    "right_ankle": -0.074
+   },
+   "limit_margin_deg": {
+    "left_hip_yaw": 16.3,
+    "left_hip_roll": 13.0,
+    "left_hip_pitch": 78.8,
+    "left_knee": 78.6,
+    "left_ankle": 89.9,
+    "right_hip_yaw": 11.1,
+    "right_hip_roll": 20.9,
+    "right_hip_pitch": 82.6,
+    "right_knee": 88.6,
+    "right_ankle": 84.0
+   },
+   "note": "P4 carve right: mirror of carve_L.",
+   "checks_pass": true
+  }
+ },
+ "_conventions": {
+  "frame": "deck frame: origin = deck body (skateboard) origin = centre of the flat deck slab; board level on its 4 wheels at rest -> deck origin z 0.022, deck top 0.024 (SAME as the double-kick boards). pos = trunk_base free-joint position: x, y relative to the deck origin, z absolute above the ground.",
+  "rpy": "trunk_base orientation relative to the deck heading, R = Rz(yaw) @ Ry(pitch) @ Rx(roll) (intrinsic ZYX); yaw 0 -> robot +x = deck +x: FORWARD stance, rider faces the nose (+x), LEFT sole at deck +y, RIGHT sole at deck -y.",
+  "feet": "LEFT = board foot (never leaves the deck), RIGHT = push foot. info.surfaces says which sole is on the deck / floor; sole_deck_xy = box-sole bottom centres in the deck frame (a floor sole's xy is also in the deck frame, z = 0).",
+  "joints": "10 leg joints in radians (robot joint names, no prefix); head/neck at HOME.",
+  "model": "get_skate_robot_spec (groundcontact + {left,right}_sole_deck_collision boxes 45.6 mm along the foot x 34 mm across); play-bundle parameters; LP friction mu 1.0, min-peak static torque.",
+  "board": "skateboard_sequence.xml (make_skateboard_sequence.py): shaped kicktail, 12.4 cm tail / 9.2 cm nose, flat 14.4 cm, wheelbase 9.0 cm (axles x +-0.045), track 10 cm, 16 mm wheels, deck top 24 mm.",
+  "board_dims": {
+   "tail_half_width": 0.062,
+   "nose_half_width": 0.046,
+   "wide_end_x": -0.012,
+   "narrow_x": 0.035,
+   "flat_half_len": 0.072,
+   "wheelbase": 0.09,
+   "wheel_track": 0.1,
+   "wheel_diameter": 0.016,
+   "deck_mass": 0.066,
+   "board_total_mass": 0.0838,
+   "tail_kick": [
+    0.04,
+    20.0
+   ],
+   "nose_kick": [
+    0.032,
+    17.0
+   ],
+   "deck_top": 0.024,
+   "origin_z": 0.022,
+   "tail_strike_deg": 27.4,
+   "overall_len": 0.2135,
+   "xml": "micro_skater/robot/assets/skateboard_sequence.xml"
+  },
+  "sequence": "P0 mount -> P1 push/push_back strokes (R foot) -> glide_step (R steps onto the deck) -> glide (L slides out 16 mm) -> tail -> tail_back (manual) -> tail/glide (nose down) -> carve_L/R -> glide_fwd (transition).",
+  "source": "skateboard/feasibility/sequence (write_stances_seq.py, FEASIBILITY_SEQ.md)"
+ }
+}

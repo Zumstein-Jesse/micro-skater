@@ -1,0 +1,118 @@
+seed: 42
+num_steps_per_env: 24
+max_iterations: 500
+obs_groups:
+  actor: !!python/tuple
+  - actor
+  critic: !!python/tuple
+  - critic
+save_interval: 50
+experiment_name: skate
+run_name: skate_v7f
+logger: wandb
+wandb_project: mjlab_microduck
+wandb_tags: !!python/tuple []
+resume: false
+load_run: .*
+load_checkpoint: model_.*.pt
+clip_actions: null
+upload_model: true
+class_name: OnPolicyRunner
+actor:
+  hidden_dims: !!python/tuple
+  - 512
+  - 256
+  - 128
+  activation: elu
+  obs_normalization: true
+  cnn_cfg: null
+  distribution_cfg:
+    class_name: GaussianDistribution
+    init_std: 1.0
+    std_type: scalar
+  rnn_type: null
+  rnn_hidden_dim: 256
+  rnn_num_layers: 1
+  class_name: MLPModel
+critic:
+  hidden_dims: !!python/tuple
+  - 512
+  - 256
+  - 128
+  activation: elu
+  obs_normalization: true
+  cnn_cfg: null
+  distribution_cfg: null
+  rnn_type: null
+  rnn_hidden_dim: 256
+  rnn_num_layers: 1
+  class_name: MLPModel
+algorithm:
+  num_learning_epochs: 5
+  num_mini_batches: 4
+  learning_rate: 0.001
+  schedule: adaptive
+  gamma: 0.99
+  lam: 0.95
+  entropy_coef: 0.005
+  desired_kl: 0.01
+  max_grad_norm: 1.0
+  value_loss_coef: 1.0
+  use_clipped_value_loss: true
+  clip_param: 0.2
+  normalize_advantage_per_mini_batch: false
+  optimizer: adam
+  share_cnn_encoders: false
+  class_name: mjlab_microduck.tasks.skate_distill.PpoWithWalkupBc
+  symmetry_cfg: null
+  walkup_bc_cfg:
+    walker_checkpoint: <local path removed>
+    anchor_checkpoint: <local path removed>
+    coef: 0.0
+    ref_frac: 0.09
+    max_boost: 10.0
+    anchor_coef: 0.0
+    learning_rate: 0.0001
+    epochs: 2
+    mini_batches: 4
+    family_dim: 61
+    twist_slice: !!python/tuple
+    - 48
+    - 51
+    approach_slice: !!python/tuple
+    - 75
+    - 79
+    dismount_flag: 0.04
+    box_x: 0.06
+    box_y: !!python/tuple
+    - -0.19
+    - -0.13
+    box_yaw: 0.5
+    box_margin: 0.0
+    staging: !!python/tuple
+    - 0.0
+    - -0.145
+    keepout_in: !!python/tuple
+    - 0.16
+    - 0.1
+    corner: !!python/tuple
+    - 0.19
+    - -0.16
+    corner_far: 0.24
+    face_travel_wp: 0.2
+    gain: !!python/tuple
+    - 2.0
+    - 2.0
+    - 2.0
+    max: !!python/tuple
+    - 0.3
+    - 0.25
+    - 0.8
+    handoff_gate: true
+    handoff_y: !!python/tuple
+    - -0.17
+    - -0.13
+    handoff_yaw: 0.25
+    handoff_sensor: board_foot_ground
+    handoff_stall_s: 1.0
+    executed: true
